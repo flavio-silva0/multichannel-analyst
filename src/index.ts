@@ -1,6 +1,6 @@
-import { analisarSentimento } from "./services/geminiService.ts";
-import { salvarAnalisesLoteSupabase } from "./services/supabaseService.ts";
-import { buscarComentariosInstagram } from "./services/instagramService.ts";
+import { analisarSentimento } from "./services/geminiService.js";
+import { salvarAnalisesLoteSupabase } from "./services/supabaseService.js";
+import { buscarComentariosInstagram } from "./services/instagramService.js";
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";

@@ -1,6 +1,6 @@
 import { createClient } from "@supabase/supabase-js";
 import dotenv from "dotenv";
-import type { FeedbackAnalisado } from "./geminiService.ts";
+import type { FeedbackAnalisado } from "./geminiService.js";
 
 dotenv.config();
 
